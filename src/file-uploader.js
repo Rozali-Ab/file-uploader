@@ -385,7 +385,7 @@ export default class FileUploader extends HTMLElement {
 .dropzone-img {
   width: 180px;
   height: 126px;
-  background: url('./docs.png');
+  background: url('/file-uploader/assets/docs.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
