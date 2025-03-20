@@ -7,9 +7,12 @@ menu.classList.add('menu');
 menu.textContent = 'Загрузить файл';
 
 menu.addEventListener('click', () => {
-	const fileUploader = new FileUploader();
 
-	app.append(fileUploader);
+	if (!app.querySelector('.file-uploader')) {
+		const fileUploader = new FileUploader();
+
+		app.append(fileUploader);
+	}
 })
 
 app.append(menu);
