@@ -1,7 +1,5 @@
 import { FILE_SIZE } from "./constants.js";
 
-const docsIconUrl = '/assets/docs.png';
-
 export default class FileUploader extends HTMLElement {
 
 	constructor() {
@@ -387,7 +385,7 @@ export default class FileUploader extends HTMLElement {
 .dropzone-img {
   width: 180px;
   height: 126px;
-  background: url('${docsIconUrl}');
+  background: url('/file-uploader/assets/docs.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
