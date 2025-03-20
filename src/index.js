@@ -8,7 +8,7 @@ menu.textContent = 'Загрузить файл';
 
 menu.addEventListener('click', () => {
 
-	if (!app.querySelector('.file-uploader')) {
+	if (!app.querySelector('file-uploader')) {
 		const fileUploader = new FileUploader();
 
 		app.append(fileUploader);
