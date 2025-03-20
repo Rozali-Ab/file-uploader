@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Vite App</title>
     <style>
       * {
@@ -11,8 +14,22 @@
 
       #app {
         background-color: #ccccce;
+        height: 90vh;
         padding: 40px;
-        border-radius: 30px;
+        font-family: 'Inter';
+      }
+
+      .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 302px;
+        height: 60px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #fff;
+        border-radius: 20px;
+        background-color: #605bf3;
       }
       file-uploader {
         position: relative;
@@ -22,7 +39,6 @@
         height: 479px;
         background: linear-gradient(180deg, #5F5CF0 0%, #DDDCFC 42.5%, #FFFFFF 100%);
         border-radius: 22px;
-        font-family: 'Inter';
       }
     </style>
   </head>
